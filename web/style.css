@@ -1,7 +1,17 @@
-body {
-  color: seagreen;
+span,
+a,
+strong {
+  border: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 a {
-  color: inherit;
+  padding: 20px;
+  display: inline-block;
+  margin: 10px;
+}
+
+h1,
+div,
+p {
+  border: 1px solid rgba(255, 0, 0, 0.5);
 }
