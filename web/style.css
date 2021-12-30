@@ -1,13 +1,22 @@
+/* Estilos gerais */
 body {
   font-family: Arial;
+  margin: 40px;
+}
+
+h1,
+p {
+  margin: 0px;
 }
 
 h1 {
-  text-align: center;
+  font-size: 48px;
+  line-height: 1;
 }
 
-h2 {
-  margin-top: 0px;
+p,
+span {
+  font-size: 20px;
 }
 
 .comprar {
@@ -16,21 +25,16 @@ h2 {
   color: #103;
   padding: 10px 20px;
   border-radius: 7px;
+  font-size: 20px;
 }
 
-.item {
-  background: #f7f7f7;
-  border: 1px solid #e7e7e7;
+.preco {
+  background: #ddd;
+  padding: 5px 10px;
   border-radius: 7px;
-  padding: 20px;
-
-  display: grid;
 }
 
-.grid {
-  display: grid;
-  height: 800px;
-  grid-template-columns: auto auto;
-  gap: 20px;
-  place-content: end;
+img {
+  max-width: 100%;
+  border-radius: 7px;
 }
