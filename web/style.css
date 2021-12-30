@@ -1,19 +1,7 @@
-#introducao {
-  color: gold;
+img {
+  width: 600px;
 }
 
-.codigo .design {
-  color: red;
-}
-
-.azul {
-  color: blue;
-}
-
-.underline {
-  text-decoration: underline;
-}
-
-.grande {
-  font-size: 32px;
+body {
+  background: lightblue;
 }
