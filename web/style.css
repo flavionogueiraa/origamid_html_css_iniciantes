@@ -1,25 +1,18 @@
 .grid {
   display: grid;
   gap: 20px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-h1 {
-  grid-column: 2;
-  text-align: right;
+.titulo {
+  grid-column: 1 / -1;
 }
 
-.preco {
-  place-self: start end;
-}
-
-.descricao {
-  text-align: right;
-}
-
-.comprar {
-  align-self: start;
-  text-align: center;
+.info {
+  display: grid;
+  place-items: flex-start;
+  place-self: flex-start;
+  gap: 20px;
 }
 
 /* Estilos gerais */
