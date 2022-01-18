@@ -4,8 +4,11 @@
   flex-wrap: wrap;
 }
 
-body {
-  margin: 0px;
+.grid {
+  margin-top: 60px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
 }
 
 h2 {
@@ -14,5 +17,4 @@ h2 {
   border-radius: 5px;
   padding: 20px;
   margin: 0px;
-  flex: 1;
 }
