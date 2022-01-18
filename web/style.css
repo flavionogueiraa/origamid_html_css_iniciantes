@@ -1,20 +1,24 @@
-.flex {
-  display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
-}
-
-.grid {
-  margin-top: 60px;
-  display: grid;
-  gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(150px, auto));
-}
-
-h2 {
-  background: #e7e7e7;
-  border: 1px solid #d7d7d7;
-  border-radius: 5px;
-  padding: 20px;
+h1 {
   margin: 0px;
+  padding: 10px;
+  background: lightblue;
+}
+
+.index1 {
+  position: relative;
+  top: 30px;
+  background: greenyellow;
+  z-index: 1;
+}
+
+.index2 {
+  position: absolute;
+  top: 60px;
+  background: lightcoral;
+  z-index: 99999;
+}
+
+.index3 {
+  position: relative;
+  z-index: 99999;
 }
