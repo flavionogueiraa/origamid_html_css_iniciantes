@@ -1,0 +1,118 @@
+body {
+  font-family: Arial;
+  background: #f7f7f7;
+  justify-content: center;
+  width: 1000px;
+  margin: auto;
+}
+
+a {
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 20px;
+  margin: 0;
+}
+
+h2 {
+  font-weight: 800;
+}
+
+.titulo {
+  display: grid;
+  margin-top: 50px;
+}
+
+.fundo-branco {
+  background: white;
+}
+
+.detalhe {
+  width: 60px;
+  height: 4px;
+  background: #ee2211;
+  display: inline-block;
+  position: absolute;
+  right: -65px;
+  top: -15px;
+}
+
+.btn-ver-mais {
+  background: #ee2211;
+  color: white;
+}
+
+.info-bike {
+  text-align: right;
+  margin-right: 35px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.bicicleta-img {
+  width: 500px;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 50px 0px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid > div {
+  height: 369px;
+  width: 500px;
+}
+
+.grid-interno {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin-top: 25px;
+}
+
+.center {
+  text-align: center;
+}
+
+.sub-titulo {
+  font-weight: 800;
+}
+
+.margin-75 {
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.texto-grande {
+  font-size: 64px;
+  font-weight: 600;
+  text-align: end;
+  margin-right: 35px;
+  color: #c6c6c6;
+}
+
+.vantagens-wrapper {
+  display: grid;
+  place-content: center end;
+}
+
+.footer {
+  padding: 50px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top: 50px;
+}
